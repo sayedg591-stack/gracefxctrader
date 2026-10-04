@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load .env variables
 load_dotenv()
 
-url = os.getenv("PING_URL")
+url = os.getenv("PING_URL")  
 interval = int(os.getenv("PING_INTERVAL", 20))
 
 while True:
